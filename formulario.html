@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel=" shortcut icon" type="image/x-icon" href="img/myfavicon.ico"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="js/jquery.min.js">
+    <script src="js/registro.js"></script>
+    <script src="contactform/contactform.js"></script>
+    <script type="text/javascript" src="js/validacionFormulario.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/registro.css">
+    <script type="text/javascript" src='js/funcionesIconos.js'></script>
+    
+</head>
+ <body>
+<!-- logo -->
+      <div class="container">
+        <div class="logo text-center">
+          <img src="img/pinup.png" alt="logo" width="250">
+          <h2>Tú cocinas Nosotros te Lo vendemos!!!</h2>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-sm-4">
+              <div class="img1">
+                <a href="index.html"><i class="fa fa-home icono" style="color: white;"></i></a>
+                <h3 class="">Home</h3>
+                 </div>
+                  
+            </div>
+
+            <div class="col-sm-4 ">
+              <div class="img2">
+                <a href="videotutoriales.html "><i class="fa fa-youtube icono" style="color: white;"></i></a>
+                <h3 class="">video Tutorial</h3>
+                  </div>
+                   
+            </div>
+
+            <div class="col-sm-4">
+              <div class="img3">
+                 <a href="cestacompra.html"><i class="fa fa-shopping-basket icono" style="color: white;"></i></a>
+                  <h3 class="">Compra</h3>
+                 </div>
+                
+            </div>
+            
+          </div>
+        </div>
+      
+    
+    <!-- fin nav -->
+
+        
+    <!-- fin nav -->
+
+
+        <!-- Formularios -->
+    <div class="contenedor-formularios">
+        <!-- Links de los formularios -->
+        <ul class="contenedor-tabs">
+            <li class="tab tab-segunda active"><a href="#iniciar-sesion">Iniciar Sesión</a></li>
+            <li class="tab tab-primera"><a href="#registrarse">Registrarse</a></li>
+        </ul>
+
+        <!-- Contenido de los Formularios -->
+        <div class="contenido-tab">
+            <!-- Iniciar Sesion -->
+            <div id="iniciar-sesion">
+                <h1>Iniciar Sesión</h1>
+                <form action="#" method="post">
+                    <div class="contenedor-input">
+                        <label>
+                            Usuario <span class="req">*</span>
+                        </label>
+                        <input type="text" id="usuario-sesion">
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label>
+                            Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" id="contrasenia-sesion">
+                    </div>
+                    <p class="forgot"><a href="#">Se te olvidó la contraseña?</a></p>
+                    <input type="submit" id="validarSesion" class="button button-block" value="Iniciar Sesión">
+                </form>
+            </div>
+
+            <!-- Registrarse -->
+            <div id="registrarse">
+                <h1>Registrarse</h1>
+                <form action="#" method="post">
+                    <div class="fila-arriba">
+                        <div class="contenedor-input">
+                            <label>
+                                Nombre <span class="req" >*</span>
+                            </label>
+                            <input type="text" id="nombre-registro" />
+                        </div>
+
+                        <div class="contenedor-input">
+                            <label>
+                                Apellido <span class="req"/>*</span>
+                            </label>
+                            <input type="text" id="apellido-registro"/>
+                        </div>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Usuario <span class="req">*</span>
+                        </label>
+                        <input type="text" id="usuario-registro"/>
+                    </div>
+                    <div class="contenedor-input">
+                            <label>
+                                Email <span class="req">*</span>
+                            </label>
+                        <input type="email" id="mail-registro"/>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" id="pass-registro1" />
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label>
+                            Repetir Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" id="pass-registro2" />
+                    </div>
+
+                    <input type="submit" class="button button-block" id="validar-registro" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <section class="col-md-4 lista1">
+          <h3>Nuestra Empresa</h3>
+          <p><a href="#">¿Dónde Estamos?</a>
+          </p>
+          <p><a href="#">Compra Y vende</a>
+          </p>
+          <p><a href="#">Pago seguro</a>
+          </p>
+          <p><a href="#">Gana Dinero</a>
+          </p>
+        </section>
+        <section class=" col-md-4 lista2">
+          <h3 class="">Sobre Nosotros</h3>
+          <p><a href="faq.html">FAQ</a>
+          </p>
+          <p><a href="cestacompra.html">Productos</a>
+          </p>
+          <p><a href="videotutoriales.html">Videotutoriales</a>
+          </p>
+          <p><a href="index.html">Home</a>
+          </p>
+        </section>
+        <section class=" col-md-4 lista3">
+          <h3>¿Necesitas Ayuda?</h3>
+          <p><a href="#">Contacto</a>
+          </p>
+          <p><a href="#">Condiciones de Servicio</a>
+          </p>
+          <p><a href="#">Envio y Formas De pago</a>
+          </p>
+          <p><a href="#">Quejas y Sugerencias</a>
+          </p>
+        </section>
+        </div>
+        
+      
+      <div class="tecno">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-html5 icono" style=" color: #e34f26;" ></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-css3 icono" style="color: #1572b6;"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-code icono"></i></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/logoj.png"style="width:30px;" class="icono"></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/bootstrap.png" style="size: 20px;" class="icono"></a>
+              </li>
+            </ul>
+          
+          <div class="copyright">
+             
+              <div class="credits">
+               designed by SimplyWeb © Bakeyourself S.A
+               <span><img src="img/logosimply.png" style="width: 70px; height: 70px;">© Copyright 2018. All rights reserved.</span> 
+              </div>
+            </div>
+      </div>
+
+      </div>
+    
+  </footer>
+
+
+  
+  
+
+
+</body>
+</html>
